@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    height: 60px;
+    background-color: #232F3E;
+    line-height: 60px;
+    padding: 0 20px;
+    display: flex;
+}
+
+.navigation {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.emp{
+	margin-right:40px;
+}
+
+.abc {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.abc:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.bcd{
+	color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+    transition:transform 0.3s ease;
+}
+
+.bcd:hover{
+    color: black;
+    margin-top:5px;
+    background-color:ghostwhite;
+    border-radius: 8px;
+    height:50px;
+}
+
+.lef {
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: #232F3E;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.lef:hover {
+	margin-top:5px;
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.select {
+	margin-left:30px;
+    background-color: #232F3E;
+    opacity: 0.8;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 80px;
+}
+
+.select:hover {
+	margin-top:5px;
+	height:50px;
+    background-color:white;
+    color: black;
+}
+
+.ghi{
+	line-height: 60px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: #232F3E;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.ghi:hover {
+	margin-top:5px;
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+.jkl{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: #232F3E;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.jkl:hover {
+	margin-top:5px;
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.join{
+	background-color:#00A8E1;
+	margin-left:30px;
+	color:white;
+	font-weight: bold;
+    font-size:18px;
+    height:50px;
+    margin-top:5px;
+    border-radius:8px;
+    line-height:50px;
+    transition:transform 0.3s ease;
+    width:100px;
+}
+
+.join:hover{
+	background-color:#00A8E1;
+	box-shadow: 0px 0px 7px #00A8E1,
+	0px 0px 7px #00A8E1,
+	0px 0px 7px #00A8E1,
+	0px 0px 7px #00A8E1;
+}
+
+.image{
+	line-height: 50px;
+	float:right;
+}
+
+.button { 
+    display: flex;
+    margin-left:100px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 7px #00A8E1,
+    0px 0px 7px #00A8E1,
+    0px 0px 7px #00A8E1,
+    0px 0px 7px #00A8E1;
+}
+
+.container{
+    margin-top:50px;
+    height:500px;
+    background-color:#232F3E;
+    box-sizing:border-box;
+}
+
+.image-row {
+    display: flex;
+    justify-content: right;
+    gap: 2px;
+}
+
+.in{
+    margin-top:20px;
+    margin-right:25px;
+    float:right;
+    border-radius: 15px;
+    height: 140px;
+    width: 200px;
+}
+.in:hover{
+    background-color:#00A8E1;
+    box-shadow: 0px 0px 7px white,
+    0px 0px 7px white,
+    0px 0px 7px white,
+    0px 0px 7px white;
+}
+
+.non{
+    float:left;
+}
+
+.foot{
+    background-color: #222222;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:160px;
+    box-sizing: border-box;
+}
+
+.out{
+    margin-top:30px;
+}
+
